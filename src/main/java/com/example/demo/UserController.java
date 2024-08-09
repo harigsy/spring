@@ -8,7 +8,7 @@ public class UserController {
 
     @GetMapping("/")
     public String demo() {
-        return "welcome!";
+        return "welcome! Hari Prasath";
     }
 
 }
