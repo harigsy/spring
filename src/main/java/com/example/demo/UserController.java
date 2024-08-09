@@ -1,8 +1,10 @@
+package com.example.demo;
+
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-public class UserController {
+public class HomeController {
 
     @GetMapping("/")
     public String demo() {
