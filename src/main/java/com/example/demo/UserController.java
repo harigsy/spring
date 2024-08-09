@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
 
     @GetMapping("/")
-    public String index() {
+    public String demo() {
         return "Greetings from Spring Boot!";
     }
 
